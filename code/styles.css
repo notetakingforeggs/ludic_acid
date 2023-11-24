@@ -1,0 +1,123 @@
+ /* styles for nav */
+
+.navbar{
+ position:fixed;
+ width:100%;
+ z-index: 11;
+ max-width:100%;
+
+}
+
+.nav-link{
+ font-size: x-large;
+ font-weight: bolder;
+ color:white;
+ /* text-shadow:
+-1px -1px 0 #000000,
+1px -1px 0 #000000,
+-1px 1px 0 #000000,
+1px 1px 0 #000000; */
+}
+.dropdown-menu{
+background-color: transparent;
+}
+.dropdown-item{
+background-color: transparent;
+text-shadow:
+-1px -1px 0 #ffffff,
+1px -1px 0 #ffffff,
+-1px 1px 0 #ffffff,
+1px 1px 0 #ffffff;
+}
+
+/* styles for section */
+.containercat{
+   position: relative;
+   height: 100vh;
+   background-color: var(primary);
+   overflow-x: hidden;
+   overflow-y: auto;
+   margin: 0;
+   padding: 0;
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center top;
+   overflow: hidden;
+   background-color: transparent; /*rgba(85, 53, 23, 0.507)*/
+   background-blend-mode: multiply;
+}
+
+#cat1{
+   background-image: url('crawick.jpg');
+}
+#cat2{
+   background-image:url("amal.jpg");
+}
+#cat3{
+   background-image:url("wick.jpg");
+}
+
+#hero{
+   font-size:12vw;
+   color:black;
+   letter-spacing: 3rem;
+   font-weight: ;
+   font-family: Raleway;
+
+}
+
+@media screen and (max-width: 768px){
+   #hero{
+      color:transparent;
+   }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto 100%;
+    }
+}
+.textdiv{
+   background-color: rgba(255, 255, 255, 0);
+   border-radius: 10px;
+   padding: 1rem;
+}
+
+
+
+/* styles for carousel */
+
+.carousel-inner {
+    background-color: rgba(255, 255, 255, 0); /* Use rgba to set the background color with transparency */
+    color:white;
+  }
+
+  .blockquote-footer{
+    color:white;
+  }
+.gradient-custom {
+   /* fallback for old browsers */
+   background: #f6d46500;
+
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: -webkit-linear-gradient(to right, rgba(246, 212, 101, 0), rgba(253, 159, 133, 0));
+
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(253, 159, 133, 0))
+   }
+
+
+   .card{
+    background-color: rgba(0, 0, 0, 0.295);
+   }
+.h-80{
+   height:80%;
+}
+.h-90{
+   height:105%;
+}
+
+.caheight{
+   height:100vh;
+}
